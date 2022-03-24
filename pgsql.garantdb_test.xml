@@ -9,5 +9,8 @@
 <include file="Franchises/pgsql.garantdb_test/databse_change_log.xml" relativeToChangelogFile="true"/>
 <include file="Business/pgsql.garantdb_test/databse_change_log.xml" relativeToChangelogFile="true"/>
 <include file="Communications/pgsql.garantdb_test/databse_change_log.xml" relativeToChangelogFile="true"/>
+<include file="Commerce/pgsql.garantdb_test/databse_change_log.xml" relativeToChangelogFile="true"/>
+<include file="Documents/pgsql.garantdb_test/databse_change_log.xml" relativeToChangelogFile="true"/>
+<include file="Info/pgsql.garantdb_test_en/databse_change_log.xml" relativeToChangelogFile="true"/>
 
 </databaseChangeLog>

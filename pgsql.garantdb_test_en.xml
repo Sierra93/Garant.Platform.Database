@@ -1,0 +1,16 @@
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+<include file="dbo/pgsql.garantdb_test_en/databse_change_log.xml" relativeToChangelogFile="true"/>
+<include file="Franchises/pgsql.garantdb_test_en/databse_change_log.xml" relativeToChangelogFile="true"/>
+<include file="Business/pgsql.garantdb_test_en/databse_change_log.xml" relativeToChangelogFile="true"/>
+<include file="Communications/pgsql.garantdb_test_en/databse_change_log.xml" relativeToChangelogFile="true"/>
+<include file="Commerce/pgsql.garantdb_test_en/databse_change_log.xml" relativeToChangelogFile="true"/>
+<include file="Documents/pgsql.garantdb_test_en/databse_change_log.xml" relativeToChangelogFile="true"/>
+<include file="Configurator/pgsql.garantdb_test_en/databse_change_log.xml" relativeToChangelogFile="true"/>
+<include file="Info/pgsql.garantdb_test_en/databse_change_log.xml" relativeToChangelogFile="true"/>
+</databaseChangeLog>

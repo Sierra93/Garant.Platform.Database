@@ -1,0 +1,95 @@
+   <databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+  <!-- <changeSet author=""
+            id="[Franchises].[Franchises]_CreateTable_2.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[Franchises].[Franchises]_CreateTable.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+  </changeSet> -->
+   <changeSet author=""
+            id="[Franchises].[Franchises]_AlterTable_Archive.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[Franchises].[Franchises]_AlterTable_Archive.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+  </changeSet>
+
+   <changeSet author=""
+            id="[Franchises].[Franchises]_AddColumns_1.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[Franchises].[Franchises]_AddColumns_1.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+  </changeSet>
+
+  <changeSet author=""
+            id="[Franchises].[FranchiseCities]_CreateTableCities.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[Franchises].[FranchiseCities]_CreateTableCities.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+  </changeSet>
+
+  <changeSet author=""
+            id="[Franchises].[Categories]_CreateTable.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[Franchises].[Categories]_CreateTable.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+  </changeSet>
+
+   <changeSet author=""
+            id="[Franchises].[ViewBusiness]_CreateTable.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[Franchises].[ViewBusiness]_CreateTable.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+  </changeSet>
+
+   <changeSet author=""
+            id="[Franchises].[Categories]_AlterTable_4.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[Franchises].[Categories]_AlterTable_1.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+  </changeSet>
+
+  <changeSet author=""
+            id="[Franchises].[Franchises]_AlterTable_1.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[Franchises].[Franchises]_AlterTable_1.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+  </changeSet>
+ 
+</databaseChangeLog>

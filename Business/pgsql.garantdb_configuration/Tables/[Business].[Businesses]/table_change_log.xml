@@ -1,0 +1,56 @@
+   <databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+   <changeSet author=""
+            id="[Business].[Businesses]_AlterTable_Archive.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[Business].[Businesses]_AlterTable_Archive.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+
+  </changeSet>
+
+  <changeSet author=""
+            id="[Business].[Businesses]_CreateTable_3.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[Business].[Businesses]_CreateTable.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+
+  </changeSet>
+
+  <changeSet author=""
+            id="[Business].[TempBusinesses]_CreateTable.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[Business].[TempBusinesses]_CreateTable.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+
+  </changeSet>
+
+   <changeSet author=""
+            id="[Business].[Businesses]_AlterTable_2.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[Business].[Businesses]_AlterTable_1.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+
+  </changeSet>
+
+</databaseChangeLog>

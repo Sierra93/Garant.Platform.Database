@@ -1,2 +1,0 @@
--- alter table dbo."UsersInformation"
--- rename column if exists "Name" to "FirstName";

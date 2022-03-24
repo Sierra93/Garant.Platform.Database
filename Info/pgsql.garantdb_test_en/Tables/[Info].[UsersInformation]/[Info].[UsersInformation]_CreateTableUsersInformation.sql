@@ -1,0 +1,22 @@
+create table "Info"."UsersInformation" (
+    "InformationId" bigserial primary key,
+	"FirstName" varchar NOT NULL DEFAULT ''::character varying,
+	"City" varchar NULL,
+	"Email" varchar NOT NULL,
+	"Password" varchar NOT NULL,
+	"Values" varchar NOT NULL DEFAULT ''::character varying,
+	"LastName" varchar NOT NULL,
+	"PhoneNumber" varchar NULL,
+	"UserId" text NULL,
+	"DateBirth" timestamp NULL,
+	"Patronymic" varchar(200) null,
+	"Inn" int null,
+	"Pc" int null,
+	"PassportSerial" int null,
+	"PassportNumber" int null,
+	"DateGive" timestamp null,
+	"WhoGive" varchar(400) null,
+	"Code" varchar(100) null,
+	"AddressRegister" varchar(400) null,
+	"DocumentName" varchar(400) null
+);

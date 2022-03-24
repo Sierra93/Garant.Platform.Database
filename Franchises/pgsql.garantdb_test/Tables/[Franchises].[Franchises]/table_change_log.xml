@@ -59,5 +59,38 @@
 	           relativeToChangelogFile="true"
 	           stripComments="false"/>
   </changeSet>
+
+   <changeSet author=""
+            id="[Franchises].[Categories]_AlterTable_4.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[Franchises].[Categories]_AlterTable_1.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+  </changeSet>
+
+  <changeSet author=""
+            id="[Franchises].[Franchises]_AlterTable_1.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[Franchises].[Franchises]_AlterTable_1.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+  </changeSet>
  
+  <changeSet author=""
+            id="[Franchises].[Franchises]_AlterTable_Archive.sql"
+            dbms="postgresql">
+
+    <sqlFile encoding="utf8"
+	           endDelimiter="\nGO"
+	           path="[Franchises].[Franchises]_AlterTable_Archive.sql"
+	           relativeToChangelogFile="true"
+	           stripComments="false"/>
+  </changeSet>
+
 </databaseChangeLog>

@@ -5,4 +5,6 @@
 /.vs
 **/pgsql.garantdb_configuration.properties
 **/pgsql.garantdb_test.properties
+**/pgsql.garantdb_configuration_en.properties
+**/pgsql.garantdb_test.properties_en
 **/package-lock.json
